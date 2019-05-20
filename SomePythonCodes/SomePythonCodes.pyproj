@@ -1,0 +1,90 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b8cfd9bc-ddbc-49cb-994f-9b2a99f9b856</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>SomePythonCodes.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>SomePythonCodes</Name>
+    <RootNamespace>SomePythonCodes</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DataScience\Matplotlib.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataScience\Numpy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataScience\Pandas.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataScience\Visualization\AreaPlots.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataScience\Visualization\BoxPlots.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataScience\Visualization\Histograms.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataScience\Visualization\BarCharts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataScience\Visualization\LinePlots.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataScience\Visualization\PieCharts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataScience\Visualization\ScatterPlots.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataScience\Visualization\WaffleCharts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataStructures\Dictionary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataStructures\List.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataStructures\Queue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataStructures\Set.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageDetection\OpenCV\FaceDetection.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SomePythonCodes.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataScience\" />
+    <Folder Include="DataStructures\" />
+    <Folder Include="DataScience\Visualization\" />
+    <Folder Include="ImageDetection\" />
+    <Folder Include="ImageDetection\OpenCV\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
