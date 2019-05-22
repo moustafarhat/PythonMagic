@@ -59,7 +59,7 @@ npm test
 
 ## Meta
 
-Moustafa Farhat – [@YourTwitter](https://twitter.com/moustafa_farhat) 
+Moustafa Farhat – [@Moustafa_Farhat](https://twitter.com/moustafa_farhat) 
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
