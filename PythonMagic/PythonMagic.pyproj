@@ -3,13 +3,15 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b8cfd9bc-ddbc-49cb-994f-9b2a99f9b856</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>SomePythonCodes.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>SomePythonCodes</Name>
+    <Name>PythonMagic</Name>
     <RootNamespace>SomePythonCodes</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -69,7 +71,7 @@
     <Compile Include="ImageDetection\OpenCV\FaceDetection.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SomePythonCodes.py" />
+    <Compile Include="PythonMagic.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataScience\" />
