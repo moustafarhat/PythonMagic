@@ -7,7 +7,7 @@
 
 One to two paragraph statement about your product and what it does.
 
-![](header.png)
+![](python-logo-master-v3-TM.png)
 
 ## Installation
 
