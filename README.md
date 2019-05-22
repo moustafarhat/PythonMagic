@@ -14,7 +14,10 @@ One to two paragraph statement about your product and what it does.
 ![](python-logo-master-v3-TM.png)
 
 ## Py Files
+Data science:
 Matplotlib.py [Matplotlib](https://github.com/Farhat47/PythonMagic/blob/master/PythonMagic/DataScience/Matplotlib.py).
+Numpy.py [Numpy](https://github.com/Farhat47/PythonMagic/blob/master/PythonMagic/DataScience/Numpy.py).
+Pandas.py [MatpPandaslotlib](https://github.com/Farhat47/PythonMagic/blob/master/PythonMagic/DataScience/Pandas.py).
 
 
 ## Installation
