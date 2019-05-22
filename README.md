@@ -1,5 +1,5 @@
-# Product Name
-> Short blurb about what your product does.
+# PythonMagic -- Programming is magic!
+> Learn python programming by examples
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
