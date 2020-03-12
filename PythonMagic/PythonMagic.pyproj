@@ -23,6 +23,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BasicProgramming\1%29 functions.py" />
+    <Compile Include="BasicProgramming\2%29 data types.py" />
+    <Compile Include="BasicProgramming\3%29 lines and identation.py" />
+    <Compile Include="BasicProgramming\4%29 logical statements.py" />
+    <Compile Include="BasicProgramming\5%29 loops.py" />
     <Compile Include="DataScience\Matplotlib.py">
       <SubType>Code</SubType>
     </Compile>
@@ -72,6 +77,21 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonMagic.py" />
+    <Compile Include="TextAnalytics\1%29 Number of characters.py" />
+    <Compile Include="TextAnalytics\10%29 Replace Words.py" />
+    <Compile Include="TextAnalytics\11%29 Stopword Removal.py" />
+    <Compile Include="TextAnalytics\12%29 String in Text.py" />
+    <Compile Include="TextAnalytics\13%29 multiple_string_check.py" />
+    <Compile Include="TextAnalytics\14%29 List files.py" />
+    <Compile Include="TextAnalytics\15%29 output file.py" />
+    <Compile Include="TextAnalytics\2%29 Number of words.py" />
+    <Compile Include="TextAnalytics\3%29 Sentence Count.py" />
+    <Compile Include="TextAnalytics\4%29 Avg Word Length.py" />
+    <Compile Include="TextAnalytics\5%29 Average sentence length.py" />
+    <Compile Include="TextAnalytics\6%29 Counting Number of Syllable in a text.py" />
+    <Compile Include="TextAnalytics\7%29 text cleaning.py" />
+    <Compile Include="TextAnalytics\8%29 Word tokenization.py" />
+    <Compile Include="TextAnalytics\9%29 Stemming.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataScience\" />
@@ -79,6 +99,10 @@
     <Folder Include="DataScience\Visualization\" />
     <Folder Include="ImageDetection\" />
     <Folder Include="ImageDetection\OpenCV\" />
+    <Folder Include="MachineLearning\" />
+    <Folder Include="DeepLearning\" />
+    <Folder Include="BasicProgramming\" />
+    <Folder Include="TextAnalytics\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

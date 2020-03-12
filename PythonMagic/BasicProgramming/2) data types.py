@@ -1,0 +1,5 @@
+print(type(1))
+print(type(1.2345))
+print(type("I am a string"))
+print(type(True))
+print(type("1.2547"))
